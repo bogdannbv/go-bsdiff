@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/gabstv/go-bsdiff/pkg/bsdiff"
-	"github.com/gabstv/go-bsdiff/pkg/bspatch"
+	"github.com/bogdannbv/go-bsdiff/pkg/bsdiff"
+	"github.com/bogdannbv/go-bsdiff/pkg/bspatch"
 )
 
 func TestDiffPatch(t *testing.T) {

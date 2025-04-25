@@ -31,8 +31,8 @@ import (
 	"io"
 	"io/ioutil"
 
+	"github.com/bogdannbv/go-bsdiff/pkg/util"
 	"github.com/dsnet/compress/bzip2"
-	"github.com/gabstv/go-bsdiff/pkg/util"
 )
 
 // Bytes applies a patch with the oldfile to create the newfile

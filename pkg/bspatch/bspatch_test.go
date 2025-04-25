@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gabstv/go-bsdiff/pkg/util"
+	"github.com/bogdannbv/go-bsdiff/pkg/util"
 )
 
 func TestPatch(t *testing.T) {

@@ -1,11 +1,11 @@
 # go-bsdiff
 Pure Go implementation of [bsdiff](http://www.daemonology.net/bsdiff/) 4.
 
-[![GoDoc](https://godoc.org/github.com/gabstv/go-bsdiff?status.svg)](https://godoc.org/github.com/gabstv/go-bsdiff)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gabstv/go-bsdiff)](https://goreportcard.com/report/github.com/gabstv/go-bsdiff)
+[![GoDoc](https://godoc.org/github.com/bogdannbv/go-bsdiff?status.svg)](https://godoc.org/github.com/bogdannbv/go-bsdiff)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bogdannbv/go-bsdiff)](https://goreportcard.com/report/github.com/bogdannbv/go-bsdiff)
 [![Build Status](https://travis-ci.org/gabstv/go-bsdiff.svg?branch=master)](https://travis-ci.org/gabstv/go-bsdiff)
 [![Coverage Status](https://coveralls.io/repos/github/gabstv/go-bsdiff/badge.svg?branch=master)](https://coveralls.io/github/gabstv/go-bsdiff?branch=master)
-<!--[![codecov](https://codecov.io/gh/gabstv/go-bsdiff/branch/master/graph/badge.svg)](https://codecov.io/gh/gabstv/go-bsdiff)-->
+<!--[![codecov](https://codecov.io/gh/bogdannbv/go-bsdiff/branch/master/graph/badge.svg)](https://codecov.io/gh/bogdannbv/go-bsdiff)-->
 
 bsdiff and bspatch are tools for building and applying patches to binary files. By using suffix sorting (specifically, Larsson and Sadakane's [qsufsort](http://www.larsson.dogma.net/ssrev-tr.pdf)) and taking advantage of how executable files change.
 
@@ -21,8 +21,8 @@ import (
   "fmt"
   "bytes"
 
-  "github.com/gabstv/go-bsdiff/pkg/bsdiff"
-  "github.com/gabstv/go-bsdiff/pkg/bspatch"
+  "github.com/bogdannbv/go-bsdiff/pkg/bsdiff"
+  "github.com/bogdannbv/go-bsdiff/pkg/bspatch"
 )
 
 func main(){
@@ -55,8 +55,8 @@ import (
   "fmt"
   "bytes"
 
-  "github.com/gabstv/go-bsdiff/pkg/bsdiff"
-  "github.com/gabstv/go-bsdiff/pkg/bspatch"
+  "github.com/bogdannbv/go-bsdiff/pkg/bsdiff"
+  "github.com/bogdannbv/go-bsdiff/pkg/bspatch"
 )
 
 func main(){
@@ -82,7 +82,7 @@ func main(){
 
 ## As a program (CLI)
 ```sh
-go get -u -v github.com/gabstv/go-bsdiff/cmd/...
+go get -u -v github.com/bogdannbv/go-bsdiff/cmd/...
 
 bsdiff oldfile newfile patch
 bspatch oldfile newfile2 patch
