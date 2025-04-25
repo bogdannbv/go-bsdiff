@@ -107,7 +107,7 @@ func diffb(oldbin, newbin []byte) ([]byte, error) {
 	header := make([]byte, 32)
 	buf := make([]byte, 8)
 
-	copy(header, []byte("BSDIFF40"))
+	copy(header, []byte("BUZZD420"))
 	offtout(0, header[8:])
 	offtout(0, header[16:])
 	offtout(newsize, header[24:])

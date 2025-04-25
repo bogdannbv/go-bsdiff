@@ -108,8 +108,8 @@ func patchb(oldfile, patch []byte) ([]byte, error) {
 		return nil, fmt.Errorf("corrupt patch (n %v < 32)", n)
 	}
 	// Check for appropriate magic
-	if bytes.Compare(header[:8], []byte("BSDIFF40")) != 0 {
-		return nil, fmt.Errorf("corrupt patch (header BSDIFF40)")
+	if bytes.Compare(header[:8], []byte("BUZZD420")) != 0 {
+		return nil, fmt.Errorf("corrupt patch (header BUZZD420)")
 	}
 
 	// Read lengths from header
